@@ -1,0 +1,22 @@
+package method;
+
+class Test {
+	int a, b;
+	
+	public ? sum(int a, int b){
+		
+	}
+}
+
+
+//---------------
+public class Method03 {
+
+	public static void main(String[] args) {
+		int a=25, b=36;
+		System.out.println("합 = " + (a+b));
+		
+
+	}
+
+}

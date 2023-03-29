@@ -1,0 +1,18 @@
+package variable;
+
+public class SungJuk {
+
+	public static void main(String[] args) {
+		
+		String name = "홍길동";
+		int kor = 90;
+		int eng = 85;
+		int math = 100;
+		
+		
+		System.out.println("총점 : " + kor + eng + math );
+		System.out.println("평균 : " + String.format("%2,f",total/3 );
+
+	}
+
+}

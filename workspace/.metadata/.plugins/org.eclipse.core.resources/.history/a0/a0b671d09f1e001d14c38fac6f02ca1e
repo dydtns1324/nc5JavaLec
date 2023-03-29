@@ -1,0 +1,28 @@
+package if_;
+
+import java.util.Scanner;
+
+public class If02 {
+
+	public static void main(String[] args) {
+		Scanner scan= new Scanner(System.in); //생성
+		
+		
+		System.err.print("a의 값을 입력 : " + "\t" + "a의 값을 입력 : " + "\t");
+		int a= scan.nextInt();
+		String result = a >= 50 ? a + "는 50보다 크거나 같다" : a + "는 50보다 작다";
+		System.out.println(result);
+	}
+
+}
+/*
+[문제] 2개의 값을 입력하여 큰값을 출력하시오
+
+[실행결과]
+a의 값을 입력 : 25
+b의 값을 입력 : 36
+큰값 = 36
+-----------------
+a의 값을 입력 : 55
+b의 값을 입력 : 30
+큰값 = 55

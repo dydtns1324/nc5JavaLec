@@ -1,0 +1,16 @@
+package variable;
+
+public class Variable02 {
+
+	public static void main(String[] args) {
+		// 320, 258의 합을 구하시오
+		System.out.println(320+258);
+		
+		int c = 320;
+		int d = 258;
+		System.out.println(c + d);
+
+
+	}
+
+}

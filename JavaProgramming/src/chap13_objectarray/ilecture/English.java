@@ -1,0 +1,26 @@
+package chap13_objectarray.ilecture;
+
+public class English implements ILecture {
+
+	    public String subject;
+	    public int studentCnt;
+	    public int lectureTime;
+		 	    
+	
+		public void proceedLecture() {
+			System.out.println(this.subject +
+					   "수업을" + this.studentCnt +
+					   "명의 학생이 듣습니다. 수업시간은 " +
+					    this.lectureTime+"분 입니다.");
+														
+		}
+		
+		 public English(String subject, int studentCnt, int lectureTime) {
+		 this.subject = subject;
+		 this.studentCnt = studentCnt;
+		 this.lectureTime = lectureTime;
+			
+			
+		}			
+		}
+

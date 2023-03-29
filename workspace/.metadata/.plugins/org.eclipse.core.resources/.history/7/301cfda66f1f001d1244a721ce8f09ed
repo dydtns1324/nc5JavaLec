@@ -1,0 +1,24 @@
+package method;
+
+class Test2 {
+	int a, b;
+	
+	public int sum(int a, int b){
+		return a+b;
+	}
+}
+
+
+//---------------
+public class Method03 {
+
+	public static void main(String[] args) {
+		int a=25, b=36;
+		
+		Test2 t = new Test();
+		System.out.println("합 = " + t.sum(a, b)); //sum 메소드를 호출
+		
+
+	}
+
+}

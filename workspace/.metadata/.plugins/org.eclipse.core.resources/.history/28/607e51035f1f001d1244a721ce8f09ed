@@ -1,0 +1,11 @@
+package variable;
+
+public class Variable03 {
+
+	public static void main(String[] args) {
+		int a=10; //지역변수(local variable), 쓰레기값 (반드시 초기화 해야 한다)
+		System.out.println("지역변수 = " + a);
+
+	}
+
+}

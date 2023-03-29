@@ -1,0 +1,10 @@
+package variable;
+
+public class Variable03 {
+
+	public static void main(String[] args) {
+		int a; //지역변수(local variable)
+
+	}
+
+}

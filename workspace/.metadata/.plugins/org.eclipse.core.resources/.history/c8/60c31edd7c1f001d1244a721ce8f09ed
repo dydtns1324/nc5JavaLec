@@ -1,0 +1,36 @@
+package method;
+
+
+class SungJuk{
+	
+}
+
+//----------------------
+public class Method04 {
+
+	public static void main(String[] args) {
+		Scaner scan = new Scanner(System.in);
+		
+		// 이름, 국어, 영어, 수학을 입력
+		
+		System.out.println("이름 입력 : ");
+		String name = scan.next();
+		int kor =
+		int eng =
+		int math =
+		
+	}
+
+}
+
+
+
+/*
+[문제] 이름, 국어, 영어, 수학을 입력받아서 총점과 평균을 구하시오
+
+클래스명 : SungJuk
+필드 : name, kor, eng, math, tot, avg
+메소드 : setData(?,?,?,?)
+		calc - 총점과 평균을 계산
+
+*/

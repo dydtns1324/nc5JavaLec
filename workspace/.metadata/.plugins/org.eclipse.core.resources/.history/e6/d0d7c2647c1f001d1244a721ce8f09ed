@@ -1,0 +1,25 @@
+package method;
+
+
+class SungJuk{
+	
+}
+
+//----------------------
+public class Method04 {
+
+	public static void main(String[] args) {
+		Scaner scan = new Scanner(System.in);
+		
+		// 이름, 국어, 영어, 수학을 입력
+	}
+
+}
+
+
+
+/*
+[문제] 이름, 국어, 영어, 수학을 입력받아서 총점과 평균을 구하시오
+
+
+*/

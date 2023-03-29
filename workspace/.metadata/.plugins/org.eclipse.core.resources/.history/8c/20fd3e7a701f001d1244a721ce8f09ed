@@ -1,0 +1,37 @@
+package method;
+
+class Test2 {
+	int a, b;
+	
+	public int sum(int a, int b){
+		return a+b;
+	}
+	public int sub(int a, int b){
+		return a-b;
+	}
+	public int mul(int a, int b){
+		return a*b;
+	}
+	public int div(double a, double b){
+		return a/b;
+	}
+	
+	
+}
+
+
+//---------------
+public class Method03 {
+
+	public static void main(String[] args) {
+		int a=25, b=36;
+		
+		Test2 t = new Test2();
+		System.out.println("합 = " + t.sum(a, b)); //sum 메소드를 호출
+		System.out.println("차 = " + t.sub(a, b)); 
+		System.out.println("곱 = " + t.mul(a, b)); 
+		System.out.println("몫 = " + t.div(a, b));
+		
+	} 
+
+}

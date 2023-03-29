@@ -1,0 +1,15 @@
+package variable;
+
+class Test{
+	String name; //필드, 초기화(값=null)
+	int age;
+}
+//-------------------
+public class Variable04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package variable;
+
+public class Variable03 {
+	int c; //필드, 이미 초기화가 끝난 상태
+	static int b; //필드
+
+	public static void main(String[] args) {
+		int a=10; //지역변수(local variable), 쓰레기값 (반드시 초기화 해야 한다)
+		System.out.println("지역변수 = " + a);
+		
+		//int a; error - Duplicate local variable a
+		
+		System.out.println("필드 = " + Variable03.b );
+		System.out.println("필드 = " + c );
+
+	}
+
+}
