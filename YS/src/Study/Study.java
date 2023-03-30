@@ -341,7 +341,7 @@ public class Study {
 //		 
 		int[][] board = new int[5][5];
 		
-		int bomb = 0;
+		int bomb = 1;
 		int life = 0;
 		
 		for(int i=0; i<5; i++) {
@@ -349,8 +349,8 @@ public class Study {
 		      int answer = (i+1)*(j+1);
 		      System.out.println(answer);
 		      if ( board[3][2] == bomb) {
-		    	  
-		      }
+		    	  answer -= 9;
+		     }else if ( board)
 		      
 		    }
 		}
