@@ -1,4 +1,4 @@
-package Homework.Homework0329;
+package Homework.Homework0330;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

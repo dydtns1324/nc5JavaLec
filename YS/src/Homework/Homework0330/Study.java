@@ -1,4 +1,4 @@
-package Homework.Homework0329;
+package Homework.Homework0330;
 
 import java.util.Arrays;
 import java.util.InputMismatchException;
@@ -548,20 +548,21 @@ public class Study {
 //		    }						
 //		  }
 		
-		int[] intArr = new int[5];
-		
-		int sum = 0;
-		
-		for(int i = 0; i < intArr.length; i++) {
-			intArr[i] = sc.nextInt();
-			
-			if(intArr[i] % 2 == 0) {
-			  sum += intArr[i];
-		  }else if (intArr[i] % 2 != 0) {
-			 i--;		
-		  }
-			System.out.println(sum);
-		}		
+		//배열4.
+//		int[] intArr = new int[5];
+//		
+//		int sum = 0;
+//		
+//		for(int i = 0; i < intArr.length; i++) {
+//			intArr[i] = sc.nextInt();
+//			
+//			if(intArr[i] % 2 == 0) {
+//			  sum += intArr[i];
+//		  }else if (intArr[i] % 2 != 0) {
+//			 i--;		
+//		  }
+//			System.out.println(sum);
+//		}		
 	  }		
 	} 		
 					
